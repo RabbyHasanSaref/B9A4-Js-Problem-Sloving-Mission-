@@ -80,7 +80,7 @@ function monthlySavings(arr , livingCost) {
     }
     let savingCost = sum - livingCost;
     if(savingCost >= 0){
-        return 'Total Savings';
+        return savingCost;
     }
     else{
         return 'earn more';
@@ -90,4 +90,4 @@ console.log(calculateMoney(10))
 console.log(checkName('Rabby'))
 console.log(deleteInvalids(arrNum));
 console.log(password(userInfo))
-console.log(monthlySavings([ 900 , 2700 , 3400], 500 ))
+console.log(monthlySavings(100, [ 900 , 2700 , 3400]  ))
